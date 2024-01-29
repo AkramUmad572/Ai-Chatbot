@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <!--- Head HTML goes here -->
+   
+   
+   
+   
+    <!--- Link to styles in CSS tab -->
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  </head>
+  <body>
+    <!--- Paste HTML below here -->
+  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script>
+  window.botpressWebChat.init({
+      "composerPlaceholder": "Chat with Ahmed ",
+      "botConversationDescription": "Your Road Guide Companion",
+      "botId": "4d868827-c1e3-421d-9a9f-e02c9231aec3",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "4d868827-c1e3-421d-9a9f-e02c9231aec3",
+      "webhookId": "952c6c43-b514-4363-8dc1-755d244ae53b",
+      "lazySocket": true,
+      "themeName": "prism",
+      "botName": "Ahmed ",
+      "avatarUrl": "https://play-lh.googleusercontent.com/QLR1xJ-O0PC8eMIYVsAgTABKU3ikJsauAYSW9K114gViA65vkAlZEMtotomRClFXYRE",
+      "stylesheet": "https://webchat-styler-css.botpress.app/prod/c4d244c0-150c-4b73-899d-924518c3c60f/v41755/style.css",
+      "frontendVersion": "v1",
+      "useSessionStorage": true,
+      "enableConversationDeletion": true,
+      "theme": "prism",
+      "themeColor": "#2563eb"
+  });
+</script>
+   
+   
+   
+
+    <!--- Link to code in JavaScript tab -->
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
